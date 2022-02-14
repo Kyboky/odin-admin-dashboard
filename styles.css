@@ -1,0 +1,21 @@
+*{
+    --main-color:rgb(0, 170, 255);
+    --secondary-color:rgb(255, 234, 0);
+    --tertiary-color:rgb(145, 155, 177);
+    --neutral-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: var(--main-color);
+}
+
+.icon-blue-bckg{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.icon-white-bckg{
+    filter: invert(22%) sepia(0%) saturate(1588%) hue-rotate(152deg) brightness(101%) contrast(83%);
+}
