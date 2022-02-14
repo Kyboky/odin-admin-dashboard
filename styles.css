@@ -5,17 +5,62 @@
     --neutral-color: white;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 body{
-    background-color: var(--main-color);
+    background-color: var(--neutral-color);
 }
 
 .icon-blue-bckg{
+    opacity: 1;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    
 }
 
 .icon-white-bckg{
     filter: invert(22%) sepia(0%) saturate(1588%) hue-rotate(152deg) brightness(101%) contrast(83%);
+    opacity: 1;
 }
+
+aside{
+    
+    width: fit-content;
+    height: 100vh;
+    background-color: var(--main-color);
+} 
+
+aside img{
+    width: 30px;
+    margin: 0 auto;
+}
+
+.dashboard{
+    font-size: 30px;
+}
+.dashboard img{
+    width:50px;
+}
+.dashboard div{
+    margin: 0;
+}
+
+nav{
+    display: grid;
+    gap:30px;
+    padding: 15px;
+    color: var(--neutral-color);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+nav>div>div{
+    display: grid;
+    grid-template-columns: 60px 200px;
+    align-items: center;
+    gap:15px;
+    margin: 0.8em 0;
+}
+
+
